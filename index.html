@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan PKL - I Kadek Surya Primanata </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+    <header class="sticky-nav">
+        <div class="nav-container">
+            <a href="#home" class="logo" style="display: flex; align-items: center; gap: 10px;">
+                <img src="assets/logo.png" alt="Logo SMK" style="height: 40px; width: auto;">
+                <span style="font-size: 1.2rem;">SMK TI BALI GLOBAL DENPASAR</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#tools">Tools</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#gallery">Gallery</a>
+            </nav>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                <i class="fas fa-sun"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="greeting"> Report Intership </p>
+                <h1 class="name">Name</h1>
+                <h2 class="role"> Koding Akademi by Mediatech </h2>
+                <div class="info-badges">
+                    <span class="badge"><i class="fas "></i> SMK TI BALI GLOBAL Denpasar</span>
+                    <span class="badge"><i class="fas "></i>(Rekayasa Perangkat Lunak)</span>
+                </div>
+                <p class="desc">Laporan pengerjaan proyek, peningkatan keterampilan teknis, dan pengalaman kerja
+                    industri selama 6 bulan di Koding Akademi by Mediatech</p>
+
+            </div>
+        </section>
+
+        <section class="motto-section">
+            <p class="motto-label">MOTTO</p>
+            <h2 class="motto-text">“Do not give up easily just because you feel you are not talented.”</h2>
+           
+        </section>
+
+
+
+        <section id="about" class="about">
+            <div class="section-header">
+                <span class="section-num">01.</span>
+                <h2>Company Profilee</h2>
+            </div>
+            <div class="about-container card-layout">
+                <div class="company-intro">
+                    <h3>Koding Akademi <span>by Mediatech</span></h3>
+                    <p>Koding Akademi merupakan lembaga pendidikan teknologi yang berfokus pada pembelajaran Coding,
+                        Robotika, Artificial Intelligence (AI), dan keterampilan digital lainnya. Berpusat di Denpasar,
+                        Bali, Koding Akademi hadir sebagai wadah bagi anak-anak dan remaja untuk mengembangkan kemampuan
+                        di bidang teknologi sejak dini.
+
+                        Melalui metode pembelajaran yang interaktif dan berbasis praktik, peserta didik tidak hanya
+                        menjadi pengguna teknologi, tetapi juga mampu menciptakan berbagai proyek digital yang inovatif.
+                        Koding Akademi terus berupaya memberikan pendidikan teknologi berkualitas yang relevan dengan
+                        perkembangan industri modern.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h4>50+</h4>
+                            <p>Mitra</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>5+</h4>
+                            <p>Tahun Pengalaman</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>100+</h4>
+                            <p>Project</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="company-tabs">
+                    <div class="tab-buttons">
+                        <button class="tab-btn active" onclick="openTab(event, 'visi')">Visi</button>
+                        <button class="tab-btn" onclick="openTab(event, 'misi')">Misi</button>
+                        <button class="tab-btn" onclick="openTab(event, 'layanan')">Layanan Utama</button>
+                    </div>
+                    <div id="visi" class="tab-content active" style="display: block;">
+                        <p>Menjadi pionir dalam pendidikan teknologi yang menciptakan inovator muda berkualitas dan siap
+                            bersaing di era digital.</p>
+                    </div>
+                    <div id="misi" class="tab-content">
+                        <ul>
+                            <li>Menyediakan kurikulum coding yang up-to-date dan aplikatif.</li>
+                            <li>Membangun lingkungan belajar yang interaktif dan menyenangkan.</li>
+                            <li>Mendorong kreativitas dan pemecahan masalah melalui project-based learning.</li>
+                        </ul>
+                    </div>
+                    <div id="layanan" class="tab-content">
+                        <ul>
+                            <li>Kursus Programming & Robotics</li>
+                            <li>Pelatihan IT untuk Sekolah & Institusi</li>
+                            <li>Pengembangan Software & Aplikasi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tools" class="tools">
+            <div class="section-header">
+                <span class="section-num">02.</span>
+                <h2>Tools</h2>
+            </div>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <img src="assets/wedo.jpeg" alt="Wedo 2.0 Logo" style="width: 50px; height: auto;">
+                    <span>Wedo 2.0
+                    </span>
+                </div>
+                <div class="tool-card">
+                    <img src="assets/picto.png" alt="Pictoblox Logo" style="width: 100px; height: auto;">
+                    <span>Pictoblox</span>
+                </div>
+                <div class="tool-card">
+                    <img src="assets/mech.png" alt="Arduino Logo" style="width: 100px; height: auto;">
+                    <span>Lego Mech Education</span>
+                </div>
+                <div class="tool-card">
+                    <img src="assets/sc.jpeg" alt="Arduino Logo" style="width: 100px; height: auto;">
+                    <span>Scratch</span>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="section-header">
+                <span class="section-num">03.</span>
+                <h2>My Skills</h2>
+            </div>
+            <div class="skills-container card-layout">
+                <div class="skill-category">
+                    <h3>Skill Gained</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Scratch</span>
+                                
+                                <!-- <span>Intermediate</span> -->
+                            </div>
+                            <!-- <div class="progress-bar">
+                                <div class="progress" style="width: 70%;"></div>
+                            </div> -->
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Pictoblox</span>
+
+                            </div>
+                            <!-- <div class="progress-bar">
+                                <div class="progress" style="width: 85%;"></div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <div class="soft-skills-grid">
+                        <div class="soft-skill-card">
+                            <i class="fas fa-clock"></i>
+                            <span>Time Management</span>
+                        </div>
+                        <div class="soft-skill-card">
+                            <i class="fas fa-users"></i>
+                            <span>Teamwork</span>
+                        </div>
+                        <div class="soft-skill-card">
+                            <i class="fas fa-comments"></i>
+                            <span>Communication</span>
+                        </div>
+                        <div class="soft-skill-card">
+                            <i class="fas fa-wrench"></i>
+                            <span>Problem Solving</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="section-header">
+                <span class="section-num">04.</span>
+                <h2>Projects</h2>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img placeholder-img">
+                        <img src="assets/maze.png" alt="Project Maze Game" style="width: 100%; height: auto;">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Scratch</span>
+                        </div>
+                        <h3>Maze Game</h3>
+                        <p>Permainan mencari jalan keluar dari labirin.
+                            Pemain harus menghindari petir dan menjawab soal matematika untuk dapat melanjutkan
+                            permainan.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img placeholder-img">
+                        <img src="assets/cina.png" alt="Project Snow Animation" style="width: 100%; height: auto;">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Pictoblox</span>
+                        </div>
+                        <h3>Barongsai Flight using ML</h3>
+                        <p>Barongsai yang terbang menggunakan teknologi machine learning.
+                            sama layak nya game flappy bird, namun dengan karakter barongsai yang dapat
+                            terbang mengikuti gerakan tangan pemain.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img placeholder-img">
+                        <img src="assets/snow.png" alt="Project Snow Animation" style="width: 100%; height: auto;">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Pictoblox</span>
+                        </div>
+                        <h3>Snowboard Adventure</h3>
+                        <p>Virtual Snowboard adventure game yang menggunakan
+                            teknologi Pictoblox dan menghindari pohon dan mendapatkan pinguin sebagain score.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <div class="section-header">
+                <span class="section-num">05.</span>
+                <h2>Gallery & Activities</h2>
+            </div>
+            <div class="gallery-grid">
+                <!-- 
+                Penjelasan fungsi klik:
+                Atribut onclick="openModal(...)" berfungsi agar saat gambar atau video ini diklik,
+                ia akan menjalankan kode JavaScript untuk memperbesar media tersebut ke tengah layar.
+                'this.querySelector' bertugas secara otomatis mencari gambar (img) atau video 
+                yang ada di dalam kotak ini untuk ditampilkan.
+                -->
+                <div class="gallery-item" onclick="openModal(this.querySelector('img') || this.querySelector('video'))">
+                    <img src="assets/hs.jpg" alt="Dokumentasi 1">
+                    <div class="overlay"><span>Dokumentasi 1</span></div>
+                </div>
+                <div class="gallery-item" onclick="openModal(this.querySelector('img') || this.querySelector('video'))">
+                    <img src="assets/sertif.jpeg" alt="Dokumentasi 2">
+                    <div class="overlay"><span>Dokumentasi 2</span></div>
+                </div>
+                <div class="gallery-item" onclick="openModal(this.querySelector('img') || this.querySelector('video'))">
+                    <img src="assets/tr.jpg" alt="Dokumentasi 3">
+                    <div class="overlay"><span>Dokumentasi 3</span></div>
+                </div>
+                <div class="gallery-item" onclick="openModal(this.querySelector('img') || this.querySelector('video'))">
+                    <img src="assets/td.jpg" alt="Project Barongsai" style="width: 100%; height: auto;">
+                    <div class="overlay"><span>Project Barongsai</span></div>
+                </div>
+                <div class="gallery-item" onclick="openModal(this.querySelector('img') || this.querySelector('video'))">
+                    <img src="assets/ccs.jpeg" alt="Project Dragonshot" style="width: 100%; height: auto;">
+                    <div class="overlay"><span>Project Dragonshot</span></div>
+                </div>
+                <div class="gallery-item" onclick="openModal(this.querySelector('img') || this.querySelector('video'))">
+                    <img src="assets/foto.jpeg" alt="Project Math" style="width: 100%; height: auto;">
+                    <div class="overlay"><span>Project Math</span></div>
+                </div>
+                <div class="gallery-item" onclick="openModal(this.querySelector('img') || this.querySelector('video'))">
+                    <video src="assets/maze.mp4" autoplay loop muted playsinline></video>
+                    <div class="overlay"><span>Project Maze</span></div>
+                </div>
+                <div class="gallery-item" onclick="openModal(this.querySelector('img') || this.querySelector('video'))">
+                    <video src="assets/snow.mp4" autoplay loop muted playsinline></video>
+                    <div class="overlay"><span>Project Snow</span></div>
+                </div>
+                <div class="gallery-item" onclick="openModal(this.querySelector('img') || this.querySelector('video'))">
+                    <video src="assets/space.mp4" autoplay loop muted playsinline></video>
+                    <div class="overlay"><span>Project Space</span></div>
+                </div>
+            </div>
+        </section>
+
+        <div id="media-modal" class="modal" onclick="closeModal()">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <div class="modal-content" onclick="event.stopPropagation()"></div>
+        </div>
+    </main>
+
+    <footer id="closing" class="closing">
+        <div class="closing-content">
+            <h2>Terima Kasih</h2>
+            <p>Terima kasih kepada SMK TI Bali Global Denpasar dan Koding Akademi atas kesempatan dan pengalaman
+                berharga ini.</p>
+            <div class="mentor-info">
+                <span>Pembimbing Industri:</span>
+                <strong>I Kadek Wahyu Yudistira Pratama, S.Kom</strong>
+            </div>
+            <div class="social-links">
+                <a href="mailto:example@email.com" class="social-btn"><i class="fas fa-envelope"></i> Email</a>
+                <a href="#" class="social-btn"><i class="fab fa-github"></i> GitHub</a>
+                <a href="#" class="social-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; Laporan PKL I Kadek Surya Primanata 2026.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
